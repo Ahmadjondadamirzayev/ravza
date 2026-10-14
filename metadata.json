@@ -1,0 +1,6 @@
+{
+  "name": "Atrofdagi Masjidlar - GPS Masjid Locator",
+  "description": "GPS orqali atrofdagi barcha masjidlarni aniqlash, qulay xaritada ko'rish, masofa va yo'nalishni topish ilovasi.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
