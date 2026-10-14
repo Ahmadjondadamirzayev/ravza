@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="url(#emeraldGrad)"/>
+
+  <!-- Subtle Islamic Geometric Pattern Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Crescent Moon and Star in Gold -->
+  <path d="M 276 96 A 48 48 0 1 0 276 172 A 38 38 0 1 1 254 118 A 48 48 0 0 0 276 96 Z" fill="url(#goldGrad)"/>
+  <polygon points="292,126 295,134 304,134 297,140 299,148 292,143 285,148 287,140 280,134 289,134" fill="url(#goldGrad)"/>
+
+  <!-- Central Mosque Dome -->
+  <!-- Main Dome Arch -->
+  <path d="M 176 340 C 176 250, 210 200, 256 180 C 302 200, 336 250, 336 340 Z" fill="#ffffff"/>
+  
+  <!-- Dome Finial / Spire -->
+  <path d="M 254 160 L 258 160 L 258 180 L 254 180 Z" fill="url(#goldGrad)"/>
+  <circle cx="256" cy="156" r="5" fill="url(#goldGrad)"/>
+
+  <!-- Central Mihrab / Doorway inside Dome -->
+  <path d="M 232 340 C 232 300, 244 280, 256 270 C 268 280, 280 300, 280 340 Z" fill="#047857"/>
+
+  <!-- Left Minaret -->
+  <rect x="120" y="240" width="32" height="100" rx="4" fill="#f8fafc"/>
+  <polygon points="120,240 136,204 152,240" fill="#f8fafc"/>
+  <rect x="116" y="270" width="40" height="8" rx="2" fill="url(#goldGrad)"/>
+  <rect x="133" y="196" width="6" height="10" fill="url(#goldGrad)"/>
+  <circle cx="136" cy="194" r="3" fill="url(#goldGrad)"/>
+
+  <!-- Right Minaret -->
+  <rect x="360" y="240" width="32" height="100" rx="4" fill="#f8fafc"/>
+  <polygon points="360,240 376,204 392,240" fill="#f8fafc"/>
+  <rect x="356" y="270" width="40" height="8" rx="2" fill="url(#goldGrad)"/>
+  <rect x="373" y="196" width="6" height="10" fill="url(#goldGrad)"/>
+  <circle cx="376" cy="194" r="3" fill="url(#goldGrad)"/>
+
+  <!-- Base Foundation Platform -->
+  <rect x="96" y="340" width="320" height="24" rx="6" fill="#f8fafc"/>
+  <rect x="80" y="364" width="352" height="16" rx="4" fill="rgba(255,255,255,0.85)"/>
+
+  <!-- Arched Windows on Wall -->
+  <path d="M 188 340 C 188 322, 194 312, 202 306 C 210 312, 216 322, 216 340 Z" fill="#e2e8f0"/>
+  <path d="M 296 340 C 296 322, 302 312, 310 306 C 318 312, 324 322, 324 340 Z" fill="#e2e8f0"/>
+
+  <!-- Compass / GPS Locator ring at bottom -->
+  <circle cx="256" cy="420" r="16" fill="none" stroke="#fef08a" stroke-width="3"/>
+  <polygon points="256,408 261,424 256,420 251,424" fill="#fef08a"/>
+</svg>
